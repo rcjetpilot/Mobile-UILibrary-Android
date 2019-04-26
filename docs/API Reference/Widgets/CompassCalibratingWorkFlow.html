@@ -10,7 +10,7 @@
 <body>
   <nav id="site-header" class="site-header navbar">
     <div class="container">
-      <div class="navbar-header"><a href="/" class="logo"><img src="../images/dji-logo@2x.png">Android UI Library API Reference</a></div>
+      <div class="navbar-header"><a href="/" class="logo"><img src="../images/dji-logo@2x.png">Android UX SDK API Reference</a></div>
     </div>
   </nav>
   <div id="documentation-page" class="documentation-page">
@@ -36,17 +36,37 @@
         </div>
         <div class="nav scrollable js-tree-menu">
           <dl>
+            <dt>Default Layout
+            </dt>
+                  <dd><a href="DUXAccessLockerWidget.html">AccessLockerWidget</a>
+                  </dd>
+                  <dd><a href="DUXSpeakerSettingsViewController.html">SpeakerPanel</a>
+                  </dd>
+                  <dd><a href="DUXSpotlightSettingsViewController.html">SpotlightPanel</a>
+                  </dd>
+          </dl>
+          <dl>
+            <dt>Widgets
+            </dt>
+                  <dd><a href="DUXBeaconWidget.html">BeaconWidget</a>
+                  </dd>
+                  <dd><a href="DUXSpeakerWidget.html">SpeakerWidget</a>
+                  </dd>
+                  <dd><a href="DUXSpotlightWidget.html">SpotlightWidget</a>
+                  </dd>
+          </dl>
+          <dl>
             <dt>Widget
             </dt>
                   <dd><a href="AutoExposureLockWidget.html">AutoExposureLockWidget</a>
                   </dd>
                   <dd><a href="PreFlightStatusWidget.html">PreFlightStatusWidget</a>
                   </dd>
-                  <dd><a href="DULConnectionWidget.html">ConnectionWidget</a>
+                  <dd><a href="DUXConnectionWidget.html">ConnectionWidget</a>
                   </dd>
-                  <dd><a href="DULFlightModeWidget.html">FlightModeWidget</a>
+                  <dd><a href="DUXFlightModeWidget.html">FlightModeWidget</a>
                   </dd>
-                  <dd><a href="DULBatteryWidget.html">BatteryWidget</a>
+                  <dd><a href="DUXBatteryWidget.html">BatteryWidget</a>
                   </dd>
                   <dd><a href="RemoteControllerSignalWidget.html">RemoteControlSignalWidget</a>
                   </dd>
@@ -56,9 +76,9 @@
                   </dd>
                   <dd><a href="VisionWidget.html">VisionWidget</a>
                   </dd>
-                  <dd><a href="DULDashboardWidget.html">DashboardWidget</a>
+                  <dd><a href="DUXDashboardWidget.html">DashboardWidget</a>
                   </dd>
-                  <dd><a href="DULCompassWidget.html">CompassWidget</a>
+                  <dd><a href="DUXCompassWidget.html">CompassWidget</a>
                   </dd>
                   <dd><a href="DistanceFromHomeWidget.html">DistanceHomeWidget</a>
                   </dd>
@@ -80,6 +100,8 @@
                   </dd>
                   <dd><a href="RemainingFlightTimeWidget.html">RemainingFlightTimeWidget</a>
                   </dd>
+                  <dd><a href="DULColorWaveformWidget.html">ColorWaveformWidget</a>
+                  </dd>
                   <dd><a href="DULFPVWidget.html">FPVWidget</a>
                   </dd>
                   <dd><a href="FPVOverlayWidget.html">FPVOverlayWidget</a>
@@ -94,23 +116,31 @@
                             </dd>
                     </ul>
                   </dd>
-                  <dd><a href="ExposureFocusSwitchWidget.html">FocusExposureSwitchWidget</a>
-                  </dd>
                   <dd><a href="CameraConfigShutterWidget.html">CameraConfigShutterWidget</a>
                   </dd>
                   <dd><a href="CameraConfigApertureWidget.html">CameraConfigApertureWidget</a>
                   </dd>
-                  <dd><a href="CameraConfigISOWidget.html">CameraConfigISOWidget</a>
+                  <dd><a href="CameraConfigISOWidget.html">CameraConfigISOAndEIWidget</a>
                   </dd>
                   <dd><a href="CameraConfigWBWidget.html">CameraConfigWBWidget</a>
                   </dd>
                   <dd><a href="CameraConfigStorageWidget.html">CameraConfigStorageWidget</a>
                   </dd>
+                  <dd><a href="CameraConfigSSDWidget.html">CameraConfigSSDWidget</a>
+                  </dd>
                   <dd><a href="CameraEVConfigWidget.html">CameraConfigEVWidget</a>
                   </dd>
                   <dd><a href="" class="active">CompassCalibratingWorkFlow</a>
                   </dd>
-                  <dd><a href="DULWiFiSignalWidget.html">WiFiSignalWidget</a>
+                  <dd><a href="DUXExposureFocusSwitchWidget.html">FocusExposureSwitchWidget</a>
+                  </dd>
+                  <dd><a href="DUXMapWidget.html">MapWidget</a>
+                  </dd>
+                  <dd><a href="DUXWiFiSignalWidget.html">WiFiSignalWidget</a>
+                  </dd>
+                  <dd><a href="DUXRadarWidget.html">RadarWidget</a>
+                  </dd>
+                  <dd><a href="DUXHistogramWidget.html">HistogramWidget</a>
                   </dd>
           </dl>
           <dl>
@@ -120,6 +150,8 @@
                   </dd>
                   <dd><a href="CameraSettingExposurePanel.html">CameraSettingExposurePanel</a>
                   </dd>
+                  <dd><a href="RTKStatusPanel.html">RTKStatusPanel</a>
+                  </dd>
                   <dd><a href="PreFlightCheckListPanel.html">PreFlightCheckListPanel</a>
                   </dd>
           </dl>
@@ -127,21 +159,21 @@
       </div>
       <div class="site-main">
         <div class="article"><div class="article"><h1><font color="#AAA">class </font>CompassCalibratingWorkFlow</h1></div>
-<figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CompassCalibratingWorkFlow</span> <span class="keyword">extends</span> <span class="title">OldFrameLayoutWidget</span></span></div></pre></td></tr></table></figure>
-<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ui.widget.compass</font></td></tr><tr valign="top"><td width="15%"><font color="#999"><i>Inherits From:</i></font></td><td width="85%"><font color="#999"><code>OldFrameLayoutWidget</code></font></td></tr></table></html>
+<figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CompassCalibratingWorkFlow</span> <span class="keyword">extends</span> <span class="title">SimpleFrameLayoutWidget</span></span></div></pre></td></tr></table></figure>
+<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ux.workflow</font></td></tr><tr valign="top"><td width="15%"><font color="#999"><i>Inherits From:</i></font></td><td width="85%"><font color="#999"><code>SimpleFrameLayoutWidget</code></font></td></tr></table></html>
 <h5 id="display">Display:</h5>
 <br style="clear:both">
 <p><font color="#666">The progress of compas calibration.</font></p>
 <h5 id="interaction">Interaction:</h5>
 <p><font color="#666">Depends on the step, there will be buttons at the bottom of the dialog for the user to interact. The user can either quit out of or continue with the process.</font></p>
 <h5 id="usage">Usage:</h5>
-<p><font color="#666">To step the user through the compass clibration process</font></p>
+<p><font color="#666">To step the user through the compass calibration process</font></p>
 <h5 id="class-members">Class Members:</h5>
 <div class="api-row" id="compasscalibratingworkflow_startcalibration"><div class="api-col left"></div><div class="api-col middle" style="color:#AAA">method</div><div class="api-col right"><a class="trigger" href="#compasscalibratingworkflow_startcalibration_inline">startCalibration</a></div></div><div class="inline-doc" id="compasscalibratingworkflow_startcalibration_inline" <blockquote="">
 <div class="article"><h6><font color="#AAA">method </font>startCalibration</h6></div>
 
 <figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">startCalibration</span><span class="params">(<span class="keyword">final</span> ActionCallback callback)</span></span></div></pre></td></tr></table></figure>
-<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ui.widget.compass</font></td></tr></table></html>
+<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ux.workflow</font></td></tr></table></html>
 <h5 id="description">Description:</h5>
 <p><font color="#666">Call this to send the start calibration command to the aircraft. As soon as the aircraft sends back the progress data, a dialog will show up to guide the user through the process.</font></p>
 <h5 id="input-parameters">Input Parameters:</h5>
@@ -150,7 +182,7 @@
 <div class="article"><h6><font color="#AAA">method </font>stopCalibration</h6></div>
 
 <figure class="highlight java"><table><tr><td class="code"><pre><div class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">stopCalibration</span><span class="params">(<span class="keyword">final</span> ActionCallback callback)</span></span></div></pre></td></tr></table></figure>
-<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ui.widget.compass</font></td></tr></table></html>
+<html><table class="table-supportedby"><tr valign="top"><td width="15%"><font color="#999"><i>Package:</i></font></td><td width="85%"><font color="#999">dji.ux.workflow</font></td></tr></table></html>
 <h5 id="description-v2">Description:</h5>
 <p><font color="#666">Call this to send the stop calibration command to the aircraft.</font></p>
 <h5 id="input-parameters-v2">Input Parameters:</h5>
